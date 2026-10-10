@@ -1,0 +1,72 @@
+:root {
+    --primary: #7B2FBE;
+    --primary-dark: #6A1FA8;
+    --primary-light: #9B4FDE;
+}
+
+body {
+    background: #f3f0f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background: var(--primary) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+.btn-primary {
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(123, 47, 190, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background: var(--primary) !important;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.table thead {
+    background: var(--primary);
+    color: white;
+}
+
+.badge-pending {
+    background: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.badge-completed {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
